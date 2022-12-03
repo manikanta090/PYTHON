@@ -1,0 +1,7 @@
+def vote(a):
+    if a>17:
+        return "eligible for vote"
+    else:
+        return "not eligible for vote"
+a=int(input ("enter a value:" ))
+print(vote(a))
